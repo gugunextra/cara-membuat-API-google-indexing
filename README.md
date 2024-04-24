@@ -13,8 +13,8 @@ Cara Membuat Api Google Indexing
 
 7. File yang terdownload otomatis itu dalam bentuk file json. Kamu bisa pindahkan ke folder favorit, misal di folder D.
 8. Kamu juga bisa merename file json tersebut agar tidak terlalu panjang, misal service_account.json
-9. Sekarang kita pergi ke https://console.cloud.google.com/apis/dashboard untuk mengaktifkan 2 API penting, yaitu API Google Console dan API google Web
+9. Sekarang kita pergi ke https://console.cloud.google.com/apis/dashboard untuk mengaktifkan 2 API penting, yaitu Web Search Indexing API dan Google Search Console API
 10. Klik tanda + ENABLE APIS
-11. Pada kolom pencarian ketik "Web Search Indexing API", lalu klik ENABLE.
+11. Pada kolom pencarian ketik "Web Search Indexing API", lalu klik ENABLE. Ulangi lagi langkah nya untuk meng-ENABLE kan Google Search Console API
 12. Sekarang kita menuju ke Google Search Console https://search.google.com/search-console/ , kamu pilih website yang ingin di index, lalu pergi ke Settingan, pilih Pengguna dan Izin. Lalu kamu tambahkan email pada step 6 , misal indexer2025@indexer2025-400203.iam.gserviceaccount.com
 13. Sekarang kamu buka aplikasi Software indexing nya, misal https://github.com/gugunextra/google-indexing-script.
